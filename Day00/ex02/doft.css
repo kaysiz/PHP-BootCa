@@ -1,0 +1,31 @@
+body {
+    /* background-color: #505050; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 50%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-column-gap: 15px;
+}
+
+.main>div:nth-child(odd) {
+    background: #909090;
+}
+
+.top {
+    background: url('/goinfre/ksiziva/projects/PHP-BootCamp-42/Day00/ex02/resources/day_of_the_42.png'), url('/goinfre/ksiziva/projects/PHP-BootCamp-42/Day00/ex02/resources/close.gif'), url('/goinfre/ksiziva/projects/PHP-BootCamp-42/Day00/ex02/resources/loupe.png') no-repeat;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    height: 250px;
+    ;
+}
