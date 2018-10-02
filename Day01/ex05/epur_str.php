@@ -1,2 +1,2 @@
 #!/usr/bin/php
-<?= implode(" ",preg_split("/[\s]+/",trim($argv[1])))."\n";?>
+<?= ($argc < 2) ? "" : implode(" ",preg_split("/[\s]+/",trim($argv[1])))."\n";?>

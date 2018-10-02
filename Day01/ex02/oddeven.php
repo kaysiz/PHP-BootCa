@@ -4,8 +4,13 @@
     while($i)
     {
         echo "Enter a number: ";
-        $number = trim(fgets(fopen ("php://stdin","r")));
-        if(is_numeric($number)){
+        $number = trim(fgets(STDIN));
+        if(feof(STDIN))
+        {
+            echo "^D\n";
+            $i = 0;
+        }
+        elseif(is_numeric($number)){
             if ($number % 2 == 0) {
                 echo "The number ".$number." is even\n";
             }

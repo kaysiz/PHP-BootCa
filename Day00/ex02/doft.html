@@ -10,35 +10,47 @@
 </head>
 
 <body>
-
     <div class="top">
         <img src="resources/day_of_the_42.png" id="day-42" />
-        <img src="resources/reload.png" id="reload" />
-        <img src="resources/close.gif" id="close" />
-        <img src="resources/loupe.png" id="mag" />
+        <a href="https://www.disney.com/"><img src="resources/reload.png" id="reload" /></a>
+        <a href="https://www.relaischateaux.com/"><img src="resources/close.gif" id="close" /></a>
+        <img src="resources/loupe.png" id="loupe" style="margin-right:-130px" />
     </div>
-    <div id=hi>
+    <div id=main>
         <div id="left">
-            <div class="nav-div"><img src="resources/arrow.png" class="nav-img" /></div>
-            <div class="nav-div"><img src="resources/main.png" class="nav-img" /></div>
-            <div class="nav-div"><img src="resources/oeil.png" class="nav-img" />
+            <div class="nav-div"><img src="resources/arrow.png" alt="Advance" class="image" /></div>
+            <div class="nav-div"><img src="resources/main.png" alt="Take" class="image" /></div>
+            <div class="nav-div oeil"><img src="resources/oeil.png" alt="Look" class="image" />
             </div>
-            <div class="nav-div"><img src="resources/outil.png" class="nav-img" />
+            <div class="nav-div"><img src="resources/outil.png" class="image" alt="Use" style="margin-top:9px;" />
             </div>
-            <div class="nav-div"><img src="resources/chat-icon.png" class="nav-img" />
+            <div class="nav-div"><img src="resources/chat-icon.png" alt="Speak" class="image" />
             </div>
         </div>
-        <div id="middle"><img src="resources/cluster.jpg" id="cluster" /></div>
+        <div id="middle">
+            <img src="resources/cluster.jpg" id="cluster" height="570" usemap="cluster" />
+        </div>
+        <map name="cluster">
+            <area shape="poly" coords="335,338,394,350,395,461,355,448" href="https://www.ikea.com/" alt="Ikea">
+            <area shape="poly" coords="659,304,771,311,770,409,654,377" href="https://www.apple.com/" alt="Apple">
+        </map>
         <div id="right">
-            <div class="nav-div"><img src="resources/book.png" class="nav-img" /></div>
+            <div class="nav-div"><img src="resources/book.png" class="image" /></div>
             <div class="nav-div">
-                <img src="resources/towel.png" class="nav-img" /></div>
+                <img src="resources/towel.png" class="image" /></div>
             <div class="nav-div">
-                <img src="resources/brick.jpg" class="nav-img" />
+                <img src="resources/brick.jpg" class="image" />
             </div>
         </div>
     </div>
 
+    <div id="form">
+        <form>
+            <label for="">vous <b style="font-size:40px;font-family: sans-serif">entrez</b> aloz dans une grande piece remplie d'<span style="text-shadow: 2px 2px #ff0000;">ordinateurs</span>... <br><i>- Bonjour, vous êtes nouveau ici?</i></label><br>
+            <input type="text" placehoder="testing">
+            <button>Repondre</button>
+        </form>
+    </div>
 </body>
 
 </html>
