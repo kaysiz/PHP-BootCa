@@ -10,8 +10,8 @@
         body {
             background: url('https://res.cloudinary.com/kaysiz/image/upload/v1538388840/bg_geswae.jpg') no-repeat center center / cover;
             color: #ccc;
-            height: 100vh;
-            overflow: hidden;
+            /* height: 100vh; */
+            /* overflow: hidden; */
         }
         
         .heading {
@@ -32,6 +32,7 @@
         
         table {
             empty-cells: hide;
+            border-collapse: collapse;
         }
         
         td {
@@ -112,7 +113,7 @@
         <img src="https://res.cloudinary.com/kaysiz/image/upload/v1538388837/mendeleiev_vdfdni.jpg" alt=""><br>
         <h3>Dimitri Mendeleiev - Periodic Table</h3>
     </div>
-    <div class="periodic">
+    <div class="periodic" style="overflow-x:auto;">
         <table>
             <tbody>
                 <tr>
