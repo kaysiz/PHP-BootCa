@@ -21,11 +21,82 @@ body {
     background: #909090;
 }
 
-.top {
-    background: url('/goinfre/ksiziva/projects/PHP-BootCamp-42/Day00/ex02/resources/day_of_the_42.png'), url('/goinfre/ksiziva/projects/PHP-BootCamp-42/Day00/ex02/resources/close.gif'), url('/goinfre/ksiziva/projects/PHP-BootCamp-42/Day00/ex02/resources/loupe.png') no-repeat;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;
-    height: 250px;
-    ;
+
+/* 
+
+.header {
+            margin-right: auto; margin-left: auto;
+            width: 82%;
+            height: 20%;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #010101;
+            background-color: rgb(150,150,150);
+        }
+.nav-div{
+    margin: auto;
+    align-content: center;
+    height: 20%;
 }
+.nav-img    {
+    height: 100%;
+    fit: contain;
+}
+#hi     {
+            margin-top: 1%; margin-right: auto; margin-left: auto;
+            width: 82%;
+            height: 80%;
+        }
+#left-bar  {
+                float:left;
+                margin-left: 3%;
+                margin-right: 2%;
+                border-radius: 15px;
+                background-color: darkgray;
+                width: 11%;
+                height: 80%;
+                box-shadow: 10px 10px 5px #010101;
+            }
+#main-image {
+                float: left;
+                border-radius: 25px;
+                background-color: darkgray;
+                width: 68%;
+                height: 100%;box-shadow: 10px 10px 5px #010101;
+            }
+
+#right-bar  {
+                float: left;
+                margin-left: 2%;
+                margin-right: 3%;
+                border-radius: 25px;
+                background-color: darkgray;
+                width: 11%;
+                height: 80%;box-shadow: 10px 10px 5px #010101;
+            }
+#day-42     {
+                float: left;
+                margin-left: 10px;
+                height: 100%; width: 33%; object-fit: contain
+}
+#mag     {
+                float: right;
+                height: 100%; width: 33%; object-fit: contain
+}#reload  {
+                float: right;
+                margin-right: 10px;
+                margin-top: 10px;
+                height: 20%; width: 3%; object-fit: contain
+}
+#close  {
+                float: right;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                height: 20%; width: 3%; object-fit: contain
+}
+#cluster    {
+    margin: 2%;
+    max-height: 96%;
+    max-width: 96%;
+     fit: contain;
+}
+ */
