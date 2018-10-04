@@ -36,7 +36,7 @@
     //sort the arrays
     natcasesort($string);
     rsort($num);
-    sort($specialChar);
+    natcasesort($specialChar);
 
     //print the arrays
     ft_putstr($string);

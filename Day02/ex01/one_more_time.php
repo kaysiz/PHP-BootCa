@@ -1,13 +1,13 @@
 #!/usr/bin/php
 <?php
     $months = array(
-        "janvier"=> 1, "février" => 2, "mars" => 3, "avril" => 4, "mai" => 5, "juin" => 6,
+        "janvier" => 1, "février" => 2, "mars" => 3, "avril" => 4, "mai" => 5, "juin" => 6,
         "juillet" => 7, "aout" => 8, "septembre" => 9, "octobre" => 10, "novembre" => 11, "décembre" => 12
     );
 
     if($argc < 2)
         exit;
-    $my_date = preg_split("/[\s]+/", $argv[1]);
+    $my_date = preg_split("/[\s]+/", trim($argv[1]));
     if(sizeof($my_date) < 5)
     {
         echo "Wrong Format\n";
