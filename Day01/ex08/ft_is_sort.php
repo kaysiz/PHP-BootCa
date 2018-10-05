@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
     function ft_is_sort($tab)
@@ -14,6 +13,5 @@
                 $result = false;
             $counter++;
         }
-        return $result;
-         
+        return $result;  
     }
