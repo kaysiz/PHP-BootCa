@@ -13,7 +13,6 @@
         echo "Wrong Format\n";
         exit;        
     }
-    unset($my_date[0]);
     $month = str_pad($months[strtolower($my_date[2])], 2, "0", STR_PAD_LEFT);
     if($month == 00)
     {
